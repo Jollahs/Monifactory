@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
         .duration(100)
         .EUt(GTValues.VA[GTValues.IV])
 
-    event.recipes.gtceu.chemical_reactor("analine")
+    event.recipes.gtceu.chemical_reactor("aniline")
         .notConsumable("gtceu:palladium_dust")
         .inputFluids("gtceu:nitrobenzene 1000", "gtceu:hydrogen 6000")
         .outputFluids("gtceu:analine 1000", "minecraft:water 2000")
